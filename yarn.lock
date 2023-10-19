@@ -2921,13 +2921,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@streamparser/json@npm:^0.0.17":
-  version: 0.0.17
-  resolution: "@streamparser/json@npm:0.0.17"
-  checksum: 5e1cb2113d3393b5858a2d32133ba9efed2ea732100f9967c50ec6104bc4d4948546d3263cbdb6b69185a49420dc216fb5f341b38eaad57293d6693357036c46
-  languageName: node
-  linkType: hard
-
 "@soul-wallet/chain-list-assets@workspace:packages/chain-list-assets":
   version: 0.0.0-use.local
   resolution: "@soul-wallet/chain-list-assets@workspace:packages/chain-list-assets"
@@ -2943,6 +2936,13 @@ __metadata:
     eventemitter3: ^5.0.1
   languageName: unknown
   linkType: soft
+
+"@streamparser/json@npm:^0.0.17":
+  version: 0.0.17
+  resolution: "@streamparser/json@npm:0.0.17"
+  checksum: 5e1cb2113d3393b5858a2d32133ba9efed2ea732100f9967c50ec6104bc4d4948546d3263cbdb6b69185a49420dc216fb5f341b38eaad57293d6693357036c46
+  languageName: node
+  linkType: hard
 
 "@szmarczak/http-timer@npm:^1.1.2":
   version: 1.1.2
@@ -11104,11 +11104,11 @@ __metadata:
     export-xcm-channels: ./scripts/exports/export-xcm-channels.js
     generate-logo-map: ./scripts/generators/generate-logo-map.js
     set-version: ./scripts/set-version.mjs
+    soulwallet-ci-ghact-build: ./scripts/soulwallet-ci-ghact-build.mjs
+    soulwallet-dev-build-ts: ./scripts/soulwallet-dev-build-ts.mjs
     strapi-fetch-chain-assets: ./scripts/strapi/fetch-chain-assets.mjs
     strapi-fetch-chains: ./scripts/strapi/fetch-chains.mjs
     strapi-multi-chain-assets: ./scripts/strapi/fetch-multi-chain-assets.mjs
-    subwallet-ci-ghact-build: ./scripts/subwallet-ci-ghact-build.mjs
-    subwallet-dev-build-ts: ./scripts/subwallet-dev-build-ts.mjs
     validate-asset-refs: ./scripts/validations/validate-asset-refs.js
     validate-chains: ./scripts/validations/validate-chains.js
     validate-tokens: ./scripts/validations/validate-tokens.js

@@ -211,6 +211,15 @@
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ftm-fantom.png"
   },
+  "AVAX-Avalanche": {
+    "slug": "AVAX-Avalanche",
+    "originChainAsset": "avalanche-NATIVE-AVAX",
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "priceId": "avalanche",
+    "hasValue": true,
+    "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png"
+  },
   "aUSD-KaruraDollar": {
     "slug": "aUSD-KaruraDollar",
     "name": "Karura Dollar",

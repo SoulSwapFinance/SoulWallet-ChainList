@@ -1,6 +1,10 @@
 {
   "name": "@soul-wallet/chain-list-assets",
   "author": "Buns Enchantress <buns@soulswap.finance>",
+  "version": "1.0.0",
+  "scripts": {
+    "publish": "npm publish --access public"
+  },
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Chain/issues",
   "description": "Open-source package to manage chains, tokens and other information",
   "engines": {
@@ -18,6 +22,5 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "0.2.17",
   "main": "index.js"
 }

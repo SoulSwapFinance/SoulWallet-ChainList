@@ -10,7 +10,7 @@
   },
   "sideEffects": false,
   "type": "module",
-  "version": "0.2.17",
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],
@@ -20,11 +20,11 @@
     "export-xcm-channels": "./scripts/exports/export-xcm-channels.js",
     "generate-logo-map": "./scripts/generators/generate-logo-map.js",
     "set-version": "./scripts/set-version.mjs",
+    "soulwallet-ci-ghact-build": "./scripts/soulwallet-ci-ghact-build.mjs",
+    "soulwallet-dev-build-ts": "./scripts/soulwallet-dev-build-ts.mjs",
     "strapi-fetch-chain-assets": "./scripts/strapi/fetch-chain-assets.mjs",
     "strapi-fetch-chains": "./scripts/strapi/fetch-chains.mjs",
     "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
-    "soulwallet-ci-ghact-build": "./scripts/soulwallet-ci-ghact-build.mjs",
-    "soulwallet-dev-build-ts": "./scripts/soulwallet-dev-build-ts.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"

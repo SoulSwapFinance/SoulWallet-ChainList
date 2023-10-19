@@ -1,5 +1,5 @@
 {
-  "default": "https://chain-list-assets.subwallet.app/assets/default.png",
+  "default": "https://https://soulswap.finance/favicon.png",
   "polkadot": "https://chain-list-assets.subwallet.app/assets/chains/polkadot.png",
   "kusama": "https://chain-list-assets.subwallet.app/assets/chains/kusama.png",
   "ethereum": "https://chain-list-assets.subwallet.app/assets/chains/ethereum.png",
@@ -163,6 +163,7 @@
   "jur_network": "https://chain-list-assets.subwallet.app/assets/chains/jur_network.png",
   "base_mainnet": "https://chain-list-assets.subwallet.app/assets/chains/base_mainnet.png",
   "avalanche_c": "https://chain-list-assets.subwallet.app/assets/chains/avalanche_c.png",
+  "avalanche": "https://chain-list-assets.subwallet.app/assets/chains/avalanche_c.png",
   "crust_mainnet": "https://chain-list-assets.subwallet.app/assets/chains/crust_mainnet.png",
   "acala_evm": "https://chain-list-assets.subwallet.app/assets/chains/acala_evm.png",
   "karura_evm": "https://chain-list-assets.subwallet.app/assets/chains/karura_evm.png",

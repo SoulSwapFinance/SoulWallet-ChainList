@@ -6528,6 +6528,20 @@
     "hasValue": false,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/fantom_testnet-native-ftm.png"
   },
+  "avalanche-NATIVE-AVAX": {
+    "originChain": "avalanche",
+    "slug": "avalanche-NATIVE-AVAX",
+    "name": "Avalanche",
+    "symbol": "AVAX",
+    "decimals": 18,
+    "priceId": "avalanche-2",
+    "minAmount": "0",
+    "assetType": "NATIVE",
+    "metadata": null,
+    "multiChainAsset": "AVAX-Avalanche",
+    "hasValue": true,
+    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/avalanche_c-native-avax.png"
+  },
   "binance-ERC20-FTM-0xAD29AbB318791D579433D831ed122aFeAf29dcfe": {
     "originChain": "binance",
     "slug": "binance-ERC20-FTM-0xAD29AbB318791D579433D831ed122aFeAf29dcfe",
@@ -6862,20 +6876,6 @@
     "multiChainAsset": "ETH-Ethereum",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/base_mainnet-native-eth.png"
-  },
-  "avalanche_c-NATIVE-AVAX": {
-    "originChain": "avalanche_c",
-    "slug": "avalanche_c-NATIVE-AVAX",
-    "name": "Avalanche",
-    "symbol": "AVAX",
-    "decimals": 18,
-    "priceId": "avalanche-2",
-    "minAmount": "0",
-    "assetType": "NATIVE",
-    "metadata": null,
-    "multiChainAsset": null,
-    "hasValue": true,
-    "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/avalanche_c-native-avax.png"
   },
   "crust_mainnet-NATIVE-CRU": {
     "originChain": "crust_mainnet",
