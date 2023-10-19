@@ -486,6 +486,6 @@
   "para-parallel": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/para-parallel.png",
   "ksm-kusama": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ksm-kusama.png",
   "intr-interlay": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/intr-interlay.png",
-  "custom-moonbeam-erc20-cp-0x6021d2c27b6fbd6e7608d1f39b41398caee2f824": "https://chain-list-assets.subwallet.app/assets/custom-chain-assets/cp_77d5363018.png",
-  "custom-aleph-psp22-zpf-5eskjbkpva1ppucmrkcmazdhqm9shihws9uqqsoi4vrdcdle": "https://chain-list-assets.subwallet.app/assets/custom-chain-assets/zpf_2f06de3f07.png"
+  "custom-moonbeam-erc20-cp-0x6021d2c27b6fbd6e7608d1f39b41398caee2f824": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/cp_77d5363018.png",
+  "custom-aleph-psp22-zpf-5eskjbkpva1ppucmrkcmazdhqm9shihws9uqqsoi4vrdcdle": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/zpf_2f06de3f07.png"
 }
