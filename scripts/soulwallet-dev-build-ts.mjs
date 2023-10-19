@@ -71,7 +71,7 @@ function witeJson (path, json) {
 }
 
 function adjustDenoPath (pkgCwd, pkgJson, dir, f, isDeclare) {
-  if (f.startsWith('@subwallet')) {
+  if (f.startsWith('@soul-wallet')) {
     const parts = f.split('/');
     const thisPkg = parts.slice(0, 2).join('/');
     const denoPkg = denoCreateName(thisPkg);
@@ -353,9 +353,9 @@ function tweakCjsPaths (buildDir) {
         fs
           .readFileSync(thisPath, 'utf8')
           .replace(
-            // require("@subwallet/$1/$2")
-            /require\("@subwallet\/([a-z-]*)\/(.*)"\)/g,
-            'require("@subwallet/$1/cjs/$2")'
+            // require("@soul-wallet/$1/$2")
+            /require\("@soul-wallet\/([a-z-]*)\/(.*)"\)/g,
+            'require("@soul-wallet/$1/cjs/$2")'
           )
       );
     });
@@ -668,7 +668,7 @@ function lintInput (dir) {
       // Sadly, we have people copying and just changing all the headers without giving attribution -
       // we certainly like forks, contributions, building on stuff, but doing this rebrand is not cool
       if (n === 0 && (
-        !/\/\/ Copyright .* @subwallet\//.test(l) &&
+        !/\/\/ Copyright .* @soul-wallet\//.test(l) &&
         !/\/\/ Auto-generated via `/.test(l) &&
         !/#!\/usr\/bin\/env node/.test(l)
       )) {
@@ -785,7 +785,7 @@ async function buildJs (repoPath, dir, locals) {
   const pkgJson = JSON.parse(fs.readFileSync(path.join(process.cwd(), './package.json'), 'utf-8'));
   const { name, version } = pkgJson;
 
-  if (!name.startsWith('@subwallet/')) {
+  if (!name.startsWith('@soul-wallet/')) {
     return;
   }
 
@@ -865,7 +865,7 @@ async function main () {
   for (const dir of dirs) {
     const { name } = JSON.parse(fs.readFileSync(path.join(process.cwd(), dir, './package.json'), 'utf-8'));
 
-    if (name.startsWith('@subwallet/')) {
+    if (name.startsWith('@soul-wallet/')) {
       locals.push([dir, name]);
     }
   }

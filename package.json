@@ -1,12 +1,12 @@
 {
-  "author": "NamPC <nampham@subwallet.app>",
-  "bugs": "https://github.com/Koniverse/SubWallet-Chain/issues",
-  "homepage": "https://github.com/Koniverse/SubWallet-Chain#readme",
+  "author": "Buns Enchantress <buns@soulswap.finance>",
+  "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Chain/issues",
+  "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Chain#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Koniverse/SubWallet-Chain.git"
+    "url": "https://github.com/SoulSwapFinance/SoulWallet-Chain.git"
   },
   "sideEffects": false,
   "type": "module",
@@ -23,14 +23,14 @@
     "strapi-fetch-chain-assets": "./scripts/strapi/fetch-chain-assets.mjs",
     "strapi-fetch-chains": "./scripts/strapi/fetch-chains.mjs",
     "strapi-multi-chain-assets": "./scripts/strapi/fetch-multi-chain-assets.mjs",
-    "subwallet-ci-ghact-build": "./scripts/subwallet-ci-ghact-build.mjs",
-    "subwallet-dev-build-ts": "./scripts/subwallet-dev-build-ts.mjs",
+    "soulwallet-ci-ghact-build": "./scripts/soulwallet-ci-ghact-build.mjs",
+    "soulwallet-dev-build-ts": "./scripts/soulwallet-dev-build-ts.mjs",
     "validate-asset-refs": "./scripts/validations/validate-asset-refs.js",
     "validate-chains": "./scripts/validations/validate-chains.js",
     "validate-tokens": "./scripts/validations/validate-tokens.js"
   },
   "scripts": {
-    "build": "yarn strapi-fetch && yarn generate-logo-map && subwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
+    "build": "yarn strapi-fetch && yarn generate-logo-map && soulwallet-dev-build-ts && cp -r packages/chain-list/build/data packages/chain-list/build/cjs",
     "build:beta": "BRANCH_NAME=dev yarn build",
     "build:extra": "",
     "build:latest": "BRANCH_NAME=master yarn build",

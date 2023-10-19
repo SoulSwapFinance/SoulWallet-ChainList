@@ -14,7 +14,7 @@ import { denoCreateDir } from '@polkadot/dev/scripts/deno.mjs';
 import { execSync } from '@polkadot/dev/scripts/execute.mjs';
 import gitSetup from '@polkadot/dev/scripts/gitSetup.mjs';
 
-console.log('$ subwallet-ci-ghact-build', process.argv.slice(2).join(' '));
+console.log('$ soulwallet-ci-ghact-build', process.argv.slice(2).join(' '));
 
 const DENO_REPO = 'polkadot-js/build-deno.land';
 const BUND_REPO = 'polkadot-js/build-bundle';

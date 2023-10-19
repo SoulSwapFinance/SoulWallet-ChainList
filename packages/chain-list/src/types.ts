@@ -1,4 +1,4 @@
-// Copyright 2019-2022 @subwallet/chain-list authors & contributors
+// Copyright 2019-2022 @soul-wallet/chain-list authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 export enum _ChainStatus {

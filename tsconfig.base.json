@@ -3,8 +3,8 @@
   "compilerOptions": {
     "composite": true,
     "paths": {
-      "@subwallet/chain-list": ["chain-list/src"],
-      "@subwallet/chain-list/*": ["chain-list/src/*"]
+      "@soul-wallet/chain-list": ["chain-list/src"],
+      "@soul-wallet/chain-list/*": ["chain-list/src/*"]
     },
     "skipLibCheck": true
   }

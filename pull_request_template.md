@@ -40,4 +40,4 @@ Note:
 **Documents and references:**
 Please attach all sources of the information you provided above
 
-**Please take a look at https://github.com/Koniverse/SubWallet-Chain/blob/master/CONTRIBUTING.md**
+**Please take a look at https://github.com/SoulSwapFinance/SoulWallet-Chain/blob/master/CONTRIBUTING.md**

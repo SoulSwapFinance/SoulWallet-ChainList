@@ -1,4 +1,4 @@
-// Copyright 2017-2022 @subwallet/base authors & contributors
+// Copyright 2017-2022 @soul-wallet/base authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
 
@@ -12,11 +12,11 @@ import path from 'path';
 import pluginCleanup from 'rollup-plugin-cleanup';
 
 function sanitizePkg(pkg) {
-  return pkg.replace('@subwallet/', '');
+  return pkg.replace('@soul-wallet/', '');
 }
 
 function createName(input) {
-  return `subwallet-${sanitizePkg(input)}`
+  return `soulwallet-${sanitizePkg(input)}`
     .toLowerCase()
     .replace(/[^a-zA-Z0-9]+(.)/g, (_, c) => c.toUpperCase());
 }
@@ -32,7 +32,7 @@ export function createOutput(_pkg, external, globals) {
   const pkg = sanitizePkg(_pkg);
 
   return {
-    file: `packages/${pkg}/build/bundle-subwallet-${pkg}.js`, format: 'umd', globals: external.reduce((all, pkg) => ({
+    file: `packages/${pkg}/build/bundle-soulwallet-${pkg}.js`, format: 'umd', globals: external.reduce((all, pkg) => ({
       [pkg]: createName(pkg), ...all
     }), {...globals}), intro: 'const global = window;', name: createName(_pkg), preferConst: true
   };
@@ -48,13 +48,13 @@ export function createBundle({entries = {}, external, globals = {}, index, injec
 }
 
 const pkgs = [
-  '@subwallet/chain-list',
+  '@soul-wallet/chain-list',
 ];
 
 const external = [...pkgs];
 
 const entries = ['chain-list'].reduce((all, p) => ({
-  ...all, [`@subwallet/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
+  ...all, [`@soul-wallet/${p}`]: path.resolve(process.cwd(), `packages/${p}/build`)
 }), {});
 
 const overrides = {};

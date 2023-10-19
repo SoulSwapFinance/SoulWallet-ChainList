@@ -3,7 +3,7 @@ import ChainInfoMap from '../../packages/chain-list/src/data/ChainInfo.json' ass
 
 import fs from "fs";
 
-const LOGO_URL = 'https://raw.githubusercontent.com/Koniverse/SubWallet-Chain/master/packages/chain-list/src/logo';
+const LOGO_URL = 'https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/master/packages/chain-list/src/logo';
 const allChains = [];
 const NOMINATION_POOL_CHAINS = ['polkadot', 'kusama', 'westend', 'alephTest', 'aleph'];
 

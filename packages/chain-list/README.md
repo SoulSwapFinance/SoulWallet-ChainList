@@ -1,0 +1,1 @@
+# @soul-wallet/chain-list

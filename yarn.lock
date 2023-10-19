@@ -2928,15 +2928,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@subwallet/chain-list-assets@workspace:packages/chain-list-assets":
+"@soul-wallet/chain-list-assets@workspace:packages/chain-list-assets":
   version: 0.0.0-use.local
-  resolution: "@subwallet/chain-list-assets@workspace:packages/chain-list-assets"
+  resolution: "@soul-wallet/chain-list-assets@workspace:packages/chain-list-assets"
   languageName: unknown
   linkType: soft
 
-"@subwallet/chain-list@workspace:packages/chain-list":
+"@soul-wallet/chain-list@workspace:packages/chain-list":
   version: 0.0.0-use.local
-  resolution: "@subwallet/chain-list@workspace:packages/chain-list"
+  resolution: "@soul-wallet/chain-list@workspace:packages/chain-list"
   dependencies:
     "@polkadot/dev": 0.67.167
     "@polkadot/util": ^12.5.1
