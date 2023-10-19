@@ -5223,18 +5223,18 @@
     },
     "substrateInfo": null
   },
-  "avalanche_c": {
-    "slug": "avalanche_c",
+  "avalanche": {
+    "slug": "avalanche",
     "name": "Avalanche C-Chain",
     "isTestnet": false,
     "chainStatus": "ACTIVE",
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png",
     "providers": {
-      "PublicNode": "https://avalanche-c-chain.publicnode.com"
+      "PublicNode": "https://rpc.ankr.com/avalanche"
     },
     "evmInfo": {
       "evmChainId": 43114,
-      "blockExplorer": "https://subnets.avax.network/c-chain/",
+      "blockExplorer": "https://snowtrace.io",
       "existentialDeposit": "0",
       "symbol": "AVAX",
       "decimals": 18,
@@ -5242,7 +5242,7 @@
         "ERC20",
         "ERC721"
       ],
-      "abiExplorer": null
+      "abiExplorer": "https://snowtrace.io"
     },
     "substrateInfo": null
   },
