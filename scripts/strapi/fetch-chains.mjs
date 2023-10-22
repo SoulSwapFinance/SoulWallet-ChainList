@@ -5,7 +5,8 @@ import {DOWNLOAD_DIR, DOWNLOAD_LINK, downloadFile, graphQLClient, removeDir, wri
 const SAVE_PATH = './packages/chain-list/src/data/ChainInfo.json';
 
 const main = async () => {
-    const results = await fetch('https://content.subwallet.app/api/list/chain');
+    // const results = await fetch('https://content.subwallet.app/api/list/chain');
+    const results = await fetch('https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-ChainList/master/packages/api/list/chain.json');
     const data = await results.json();
     const downloadDir = `${DOWNLOAD_DIR}/chains`;
     const chains = await Promise.all(data.map(async chain => {

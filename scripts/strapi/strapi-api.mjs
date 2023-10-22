@@ -6,10 +6,11 @@ import path from "path";
 // Init basic config
 const STRAPI_TOKEN = process.env.STRAPI_TOKEN;
 const STRAPI_URL = process.env.STRAPI_URL || 'http://localhost:1337';
-const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
+// const BRANCH_NAME = process.env.BRANCH_NAME || 'dev';
 
 export const DOWNLOAD_DIR = './packages/chain-list-assets/public/assets';
-export const DOWNLOAD_LINK = BRANCH_NAME === 'dev' ? 'https://dev.sw-chain-list-assets.pages.dev' : 'https://chain-list-assets.subwallet.app';
+export const DOWNLOAD_LINK = "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public"
+// BRANCH_NAME === 'dev' ? 'https://dev.sw-chain-list-assets.pages.dev' : 'https://chain-list-assets.subwallet.app';
 
 export const graphQLClient = new GraphQLClient(`${STRAPI_URL}/graphql`, {
     headers: {

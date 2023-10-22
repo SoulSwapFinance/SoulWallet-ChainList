@@ -4,7 +4,7 @@ import ChainAssetMap from '../../packages/chain-list/src/data/ChainAsset.json' a
 import AssetRefMap from '../../packages/chain-list/src/data/AssetRef.json' assert { type: "json" };
 
 import fs from "fs";
-const LOGO_URL = 'https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chain/master/packages/chain-list/src/logo';
+const LOGO_URL = 'https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list/src/logo';
 
 const allAssets = [];
 
