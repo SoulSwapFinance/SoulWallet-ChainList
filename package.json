@@ -11,6 +11,7 @@
   "sideEffects": false,
   "type": "module",
   "version": "1.0.0",
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
