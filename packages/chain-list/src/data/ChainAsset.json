@@ -6514,6 +6514,22 @@
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/chain-assets/fantom-native-ftm.png"
   },
+  "fantom-ERC20-SOUL-0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07": {
+    "originChain": "fantom",
+    "slug": "fantom-ERC20-SOUL-0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07",
+    "name": "SoulPower",
+    "symbol": "SOUL",
+    "decimals": 18,
+    "priceId": "soul-swap",
+    "minAmount": null,
+    "assetType": "ERC20",
+    "metadata": {
+      "contractAddress": "0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07"
+    },
+    "multiChainAsset": "SOUL-Fantom",
+    "hasValue": true,
+    "icon": "https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png"
+  },
   "fantom_testnet-NATIVE-FTM": {
     "originChain": "fantom_testnet",
     "slug": "fantom_testnet-NATIVE-FTM",

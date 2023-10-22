@@ -164,6 +164,7 @@
   "base_mainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/base_mainnet.png",
   "avalanche_c": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png",
   "avalanche": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png",
+  "soul": "https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png",
   "crust_mainnet": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/crust_mainnet.png",
   "acala_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/acala_evm.png",
   "karura_evm": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/karura_evm.png",

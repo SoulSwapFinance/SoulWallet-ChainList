@@ -216,7 +216,7 @@
     "originChainAsset": "avalanche-NATIVE-AVAX",
     "name": "Avalanche",
     "symbol": "AVAX",
-    "priceId": "avalanche",
+    "priceId": "avalanche-2",
     "hasValue": true,
     "icon": "https://dev.sw-chain-list-assets.pages.dev/assets/chains/avalanche_c.png"
   },
@@ -306,6 +306,14 @@
     "priceId": "wrapped-bitcoin",
     "hasValue": true,
     "icon": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/wbtc-wrappedbtc.png"
+  },
+  "SOUL-SoulPower": {
+    "slug": "SOUL-SoulPower",
+    "name": "SoulPower",
+    "symbol": "SOUL",
+    "priceId": "soul-swap",
+    "hasValue": true,
+    "icon": "https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png"
   },
   "aSEED-aSEEDKarura": {
     "slug": "aSEED-aSEEDKarura",

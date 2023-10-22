@@ -1,4 +1,7 @@
 {
+  "name": "@soul-wallet/chain-list",
+  "version": "1.0.4",
+  "main": "./src/index.ts",
   "author": "Buns Enchantress <buns@soulswap.finance>",
   "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Chain/issues",
   "description": "Open-source package to manage chains, tokens and other information",
@@ -7,7 +10,6 @@
   },
   "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Chain/tree/master/packages/chain-list#readme",
   "license": "Apache-2.0",
-  "name": "@soul-wallet/chain-list",
   "repository": {
     "directory": "packages/chain-list",
     "type": "git",
@@ -18,8 +20,6 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
     "publish": "npm publish --access public"
   },
