@@ -1,16 +1,16 @@
 {
-  "version": "1.0.0",
   "author": "Buns Enchantress <buns@soulswap.finance>",
-  "bugs": "https://github.com/SoulSwapFinance/SoulWallet-Chain/issues",
-  "homepage": "https://github.com/SoulSwapFinance/SoulWallet-Chain#readme",
+  "bugs": "https://github.com/SoulSwapFinance/SoulWallet-ChainList/issues",
+  "homepage": "https://github.com/SoulSwapFinance/SoulWallet-ChainList#readme",
   "license": "Apache-2.0",
   "packageManager": "yarn@3.2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/SoulSwapFinance/SoulWallet-Chain.git"
+    "url": "https://github.com/SoulSwapFinance/SoulWallet-ChainList.git"
   },
   "sideEffects": false,
   "type": "module",
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],

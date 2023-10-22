@@ -1,5 +1,5 @@
 {
-  "default": "https://soulswap.finance/favicon.png",
+  "default": "http://soulswap.finance/favicon.png",
   "polkadot-native-dot": "https://chain-list-assets.subwallet.app/assets/chain-assets/polkadot-native-dot.png",
   "kusama-native-ksm": "https://chain-list-assets.subwallet.app/assets/chain-assets/kusama-native-ksm.png",
   "ethereum-native-eth": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-native-eth.png",
@@ -365,7 +365,6 @@
   "ethereum-erc20-uni-0x1f9840a85d5af5bf1d1762f925bdaddc4201f984": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-uni-0x1f9840a85d5af5bf1d1762f925bdaddc4201f984.png",
   "ethereum-erc20-matic-0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-matic-0x7d1afa7b718fb893db30a3abc0cfc608aacfebb0.png",
   "ethereum-erc20-shib-0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce": "https://chain-list-assets.subwallet.app/assets/chain-assets/ethereum-erc20-shib-0x95ad61b0a150d79219dcf64e1e6cc01f0b64c4ce.png",
-  "fantom-erc20-soul-0xe2fb177009ff39f52c0134e8007fa0e4baacbd07": "https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png",
   "moonbeam-erc20-tfa-0xe065ffaf3f7ded69bb5cf5fdd1fd1dda2eee8493": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc20-tfa-0xe065ffaf3f7ded69bb5cf5fdd1fd1dda2eee8493.png",
   "moonbeam-erc721-mfmp-0x6758053c0b27e478ede1e4882adff708fc4fa72d": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc721-mfmp-0x6758053c0b27e478ede1e4882adff708fc4fa72d.png",
   "moonbeam-erc721-mm-0xcc1a7573c8f10d0df7ee4d57cc958c8df4a5aca9": "https://chain-list-assets.subwallet.app/assets/chain-assets/moonbeam-erc721-mm-0xcc1a7573c8f10d0df7ee4d57cc958c8df4a5aca9.png",
@@ -409,6 +408,7 @@
   "kintsugi-local-lp_ksm_kbtc": "https://chain-list-assets.subwallet.app/assets/chain-assets/kintsugi-local-lp_ksm_kbtc.png",
   "kintsugi-local-lp_kbtc_usdt": "https://chain-list-assets.subwallet.app/assets/chain-assets/kintsugi-local-lp_kbtc_usdt.png",
   "fantom-native-ftm": "https://chain-list-assets.subwallet.app/assets/chain-assets/fantom-native-ftm.png",
+  "fantom-erc20-soul-0xe2fb177009ff39f52c0134e8007fa0e4baacbd07": "https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png",
   "fantom_testnet-native-ftm": "https://chain-list-assets.subwallet.app/assets/chain-assets/fantom_testnet-native-ftm.png",
   "avalanche-native-avax": "https://chain-list-assets.subwallet.app/assets/chain-assets/avalanche_c-native-avax.png",
   "binance-erc20-ftm-0xad29abb318791d579433d831ed122afeaf29dcfe": "https://chain-list-assets.subwallet.app/assets/chain-assets/binance-erc20-ftm-0xad29abb318791d579433d831ed122afeaf29dcfe.png",
@@ -479,6 +479,7 @@
   "rmrk-rmrkapp": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/rmrk-rmrkapp.png",
   "kint-kintsugi": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/kint-kintsugi.png",
   "wbtc-wrappedbtc": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/wbtc-wrappedbtc.png",
+  "soul-soulpower": "https://raw.githubusercontent.com/soulswapfinance/assets/prod/blockchains/fantom/assets/0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07/logo.png",
   "aseed-aseedkarura": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/aseed-aseedkarura.png",
   "ausd-acaladollar": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ausd-acaladollar.png",
   "eqd-equilibriumusd": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/eqd-equilibriumusd.png",
@@ -487,6 +488,6 @@
   "para-parallel": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/para-parallel.png",
   "ksm-kusama": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/ksm-kusama.png",
   "intr-interlay": "https://chain-list-assets.subwallet.app/assets/multi-chain-assets/intr-interlay.png",
-  "custom-moonbeam-erc20-cp-0x6021d2c27b6fbd6e7608d1f39b41398caee2f824": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/cp_77d5363018.png",
-  "custom-aleph-psp22-zpf-5eskjbkpva1ppucmrkcmazdhqm9shihws9uqqsoi4vrdcdle": "https://dev.sw-chain-list-assets.pages.dev/assets/custom-chain-assets/zpf_2f06de3f07.png"
+  "custom-moonbeam-erc20-cp-0x6021d2c27b6fbd6e7608d1f39b41398caee2f824": "https://chain-list-assets.subwallet.app/assets/custom-chain-assets/cp_77d5363018.png",
+  "custom-aleph-psp22-zpf-5eskjbkpva1ppucmrkcmazdhqm9shihws9uqqsoi4vrdcdle": "https://chain-list-assets.subwallet.app/assets/custom-chain-assets/zpf_2f06de3f07.png"
 }
