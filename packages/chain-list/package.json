@@ -18,8 +18,8 @@
     "./detectPackage.cjs"
   ],
   "type": "module",
-  "version": "1.0.4",
-  "main": "./src/index.ts",
+  "version": "1.0.6",
+  "main": "index.js",
   "scripts": {
     "publish": "npm publish --access public"
   },
