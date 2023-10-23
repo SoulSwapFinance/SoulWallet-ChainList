@@ -5440,7 +5440,7 @@
     "name": "Moonsama",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/moonsama.svg",
+    "icon": "https://media-resources.subwallet.app/moonsama_e58d7ffb32.svg",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5478,7 +5478,7 @@
     "name": "OAK Network",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/oak_network.png",
+    "icon": "https://media-resources.subwallet.app/oak_96f32d9dbe.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5516,7 +5516,7 @@
     "name": "OmniBTC",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/omnibtc.jpg",
+    "icon": "https://media-resources.subwallet.app/omnibtc_421a7571f2.jpg",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5554,7 +5554,7 @@
     "name": "peaq",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/peaq.jpg",
+    "icon": "https://media-resources.subwallet.app/peaq_29fc0dfdda.jpg",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5592,7 +5592,7 @@
     "name": "Quantum Portal",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/quantum_portal.jpg",
+    "icon": "https://media-resources.subwallet.app/ferrum_1b3954d80c.jpg",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5772,7 +5772,7 @@
     "name": "Mars",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/mars.png",
+    "icon": "https://media-resources.subwallet.app/mars_29781ee7f2.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5836,7 +5836,7 @@
     "name": "Aband",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/aband.png",
+    "icon": "https://media-resources.subwallet.app/aband_6209673507.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5874,7 +5874,7 @@
     "name": "Acurast Canary",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/acurast_canary.jpg",
+    "icon": "https://media-resources.subwallet.app/acurast_0e2547b512.jpg",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5900,7 +5900,7 @@
     "name": "Alpha Network",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/alpha_network.png",
+    "icon": "https://media-resources.subwallet.app/alpha_network_dc6919bbbe.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
@@ -5926,7 +5926,7 @@
     "name": "Loom Network",
     "isTestnet": false,
     "chainStatus": "INACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/loom_network.png",
+    "icon": "https://media-resources.subwallet.app/loom_70966d1e56.png",
     "providers": {},
     "evmInfo": null,
     "substrateInfo": {
