@@ -1692,34 +1692,6 @@
       ]
     }
   },
-  "odyssey": {
-    "slug": "odyssey",
-    "name": "Ares Odyssey",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/odyssey.png",
-    "providers": {
-      "AresProtocol": "wss://odyssey.aresprotocol.io"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": null,
-      "genesisHash": "0x0f3665e2e57fb38fd638145b69e567fb05bbadfd457624f90f15e5dbb31320bb",
-      "addressPrefix": 34,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
-      "blockExplorer": null,
-      "existentialDeposit": "500",
-      "symbol": "ARES",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportStaking": false,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    }
-  },
   "polkadex": {
     "slug": "polkadex",
     "name": "Polkadex",
