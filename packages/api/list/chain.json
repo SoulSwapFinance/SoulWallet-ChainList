@@ -1,10 +1,10 @@
 [
-  {
-    "polkadot": {
+    {
       "slug": "polkadot",
       "name": "Polkadot",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 1,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/polkadot.png",
       "providers": {
         "Parity": "wss://rpc.polkadot.io",
@@ -34,11 +34,12 @@
         "crowdloanFunds": []
       }
     },
-    "kusama": {
+    {
       "slug": "kusama",
       "name": "Kusama",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 2,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/kusama.png",
       "providers": {
         "Parity": "wss://kusama-rpc.polkadot.io",
@@ -68,11 +69,12 @@
         "crowdloanFunds": []
       }
     },
-    "ethereum": {
+    {
       "slug": "ethereum",
       "name": "Ethereum",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 3,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/ethereum.png",
       "providers": {
         "Llamarpc": "https://eth.llamarpc.com",
@@ -95,11 +97,12 @@
       },
       "substrateInfo": null
     },
-    "fantom": {
+    {
       "slug": "fantom",
       "name": "Fantom",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 4,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/fantom.png",
       "providers": {
         "Ankr": "https://rpc.ankr.com/fantom",
@@ -122,35 +125,12 @@
       },
       "substrateInfo": null
     },
-    "base_mainnet": {
-      "slug": "base_mainnet",
-      "name": "Base Mainnet",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/base_mainnet.png",
-      "providers": {
-        "PublicNode": "https://base.publicnode.com",
-        "Llamarpc": "https://base.llamarpc.com"
-      },
-      "evmInfo": {
-        "evmChainId": 8453,
-        "blockExplorer": "https://basescan.org",
-        "existentialDeposit": "0",
-        "symbol": "ETH",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": "https://basescan.org"
-      },
-      "substrateInfo": null
-    },
-    "avalanche": {
+    {
       "slug": "avalanche",
       "name": "Avalanche",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 5,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/avalanche.png",
       "providers": {
         "Ankr": "https://rpc.ankr.com/avalanche",
@@ -170,11 +150,37 @@
       },
       "substrateInfo": null
     },
-    "binance": {
+    {
+      "slug": "base_mainnet",
+      "name": "Base Mainnet",
+      "isTestnet": false,
+      "chainStatus": "ACTIVE",
+      "ordinal": 6,
+      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/base_mainnet.png",
+      "providers": {
+        "PublicNode": "https://base.publicnode.com",
+        "Llamarpc": "https://base.llamarpc.com"
+      },
+      "evmInfo": {
+        "evmChainId": 8453,
+        "blockExplorer": "https://basescan.org",
+        "existentialDeposit": "0",
+        "symbol": "ETH",
+        "decimals": 18,
+        "supportSmartContract": [
+          "ERC20",
+          "ERC721"
+        ],
+        "abiExplorer": "https://basescan.org"
+      },
+      "substrateInfo": null
+    },
+    {
       "slug": "binance",
       "name": "Binance Smart Chain",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 7,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/binance.png",
       "providers": {
         "Binance": "https://bsc-dataseed.binance.org/",
@@ -196,11 +202,12 @@
       },
       "substrateInfo": null
     },
-    "moonbeam": {
+   {
       "slug": "moonbeam",
       "name": "Moonbeam",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 8,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/moonbeam.png",
       "providers": {
         "Moonbeam Foundation": "wss://wss.api.moonbeam.network",
@@ -252,11 +259,12 @@
         ]
       }
     },
-    "aleph": {
+    {
       "slug": "aleph",
       "name": "Aleph Zero",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 9,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/aleph.png",
       "providers": {
         "Aleph Zero Foundation": "wss://ws.azero.dev"
@@ -283,11 +291,12 @@
         "crowdloanFunds": []
       }
     },
-    "astar": {
+    {
       "slug": "astar",
       "name": "Astar",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 10,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/astar.png",
       "providers": {
         "Astar": "wss://rpc.astar.network",
@@ -332,11 +341,12 @@
         ]
       }
     },
-    "astarEvm": {
+    {
       "slug": "astarEvm",
       "name": "Astar - EVM",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 11,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/astarevm.png",
       "providers": {
         "Astar": "https://evm.astar.network",
@@ -359,44 +369,12 @@
       },
       "substrateInfo": null
     },
-    "statemint": {
-      "slug": "statemint",
-      "name": "Polkadot Asset Hub (Statemint)",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/statemint.png",
-      "providers": {
-        "Parity": "wss://statemint-rpc.polkadot.io",
-        "OnFinality": "wss://statemint.api.onfinality.io/public-ws",
-        "Dwellir": "wss://statemint-rpc.dwellir .com",
-        "PinkNode": "wss://public-rpc.pinknode.io/statemint",
-        "RadiumBlock": "wss://statemint.public.curie.radiumblock.xyz/ws",
-        "Dwellir Tunisia": "wss://statemint-rpc-tn.dwellir.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "polkadot",
-        "paraId": 1000,
-        "genesisHash": "0x68d56f15f85d3136970ec16946040bc1752654e906147f7e43e9d539d7c3de2f",
-        "addressPrefix": 0,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": "https://statemint.subscan.io/",
-        "existentialDeposit": "1000000000",
-        "symbol": "DOT",
-        "decimals": 10,
-        "hasNativeNft": true,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      }
-    },
-    "acala": {
+    {
       "slug": "acala",
       "name": "Acala",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 12,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/acala.png",
       "providers": {
         "Acala Foundation 0": "wss://acala-rpc-0.aca-api.network",
@@ -438,11 +416,12 @@
         ]
       }
     },
-    "polygon": {
+    {
       "slug": "polygon",
       "name": "Polygon",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 13,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/polygon.png",
       "providers": {
         "Llamarpc": "https://polygon.llamarpc.com",
@@ -463,11 +442,12 @@
       },
       "substrateInfo": null
     },
-    "arbitrum_one": {
+    {
       "slug": "arbitrum_one",
       "name": "Arbitrum One",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 14,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/arbitrum_one.png",
       "providers": {
         "Omniatech": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
@@ -487,11 +467,12 @@
       },
       "substrateInfo": null
     },
-    "optimism": {
+    {
       "slug": "optimism",
       "name": "Optimism",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 15,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/optimism.png",
       "providers": {
         "Optimism": "https://mainnet.optimism.io",
@@ -511,11 +492,12 @@
       },
       "substrateInfo": null
     },
-    "tomochain": {
+    {
       "slug": "tomochain",
       "name": "TomoChain",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 16,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/tomochain.png",
       "providers": {
         "TomoChain": "https://rpc.tomochain.com"
@@ -534,94 +516,12 @@
       },
       "substrateInfo": null
     },
-    "shiden": {
-      "slug": "shiden",
-      "name": "Shiden",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/shiden.png",
-      "providers": {
-        "Astar": "wss://rpc.shiden.astar.network",
-        "OnFinality": "wss://shiden.api.onfinality.io/public-ws",
-        "Dwellir": "wss://shiden-rpc.dwellir.com",
-        "Blast": "wss://shiden.public.blastapi.io"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2007,
-        "genesisHash": "0xf1cf9022c7ebb34b162d5b5e34e705a5a740b2d0ecc1009fb89023e62a488108",
-        "addressPrefix": 5,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://polkadot.js.org/apps/#/parachains/crowdloan",
-        "blockExplorer": "https://shiden.subscan.io/",
-        "existentialDeposit": "1000000",
-        "symbol": "SDN",
-        "decimals": 18,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": [
-          "PSP34",
-          "PSP22"
-        ],
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "kusama",
-            "fundId": "2258-92",
-            "paraId": 2258,
-            "status": "won",
-            "startTime": "2023-01-25T04:27:00.000Z",
-            "endTime": "2023-12-27T04:27:00.000Z",
-            "auctionIndex": 70,
-            "firstPeriod": 27,
-            "lastPeriod": 34
-          },
-          {
-            "relayChain": "kusama",
-            "fundId": "2007-0",
-            "paraId": 2007,
-            "status": "won",
-            "startTime": "2021-06-16T04:27:00.000Z",
-            "endTime": "2022-05-18T04:27:00.000Z",
-            "auctionIndex": 3,
-            "firstPeriod": 13,
-            "lastPeriod": 20
-          }
-        ]
-      }
-    },
-    "shidenEvm": {
-      "slug": "shidenEvm",
-      "name": "Shiden - EVM",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/shidenevm.png",
-      "providers": {
-        "Astar": "https://evm.shiden.astar.network",
-        "OnFinality": "https://shiden.api.onfinality.io/public",
-        "Dwellir": "https://shiden-rpc.dwellir.com",
-        "Blast": "https://shiden.public.blastapi.io"
-      },
-      "evmInfo": {
-        "evmChainId": 336,
-        "blockExplorer": "https://blockscout.com/shiden/",
-        "existentialDeposit": "0",
-        "symbol": "SDN",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null
-    },
-    "moonriver": {
+    {
       "slug": "moonriver",
       "name": "Moonriver",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 17,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/moonriver.png",
       "providers": {
         "Moonbeam Foundation": "wss://wss.api.moonriver.moonbeam.network",
@@ -673,115 +573,12 @@
         ]
       }
     },
-    "amplitude": {
-      "slug": "amplitude",
-      "name": "Amplitude",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/amplitude.png",
-      "providers": {
-        "Amplitude": "wss://rpc-amplitude.pendulumchain.tech"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2124,
-        "genesisHash": "0xcceae7f3b9947cdb67369c026ef78efa5f34a08fe5808d373c04421ecf4f1aaf",
-        "addressPrefix": 57,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": null,
-        "blockExplorer": null,
-        "existentialDeposit": "1000000000",
-        "symbol": "AMPE",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": true,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "kusama",
-            "fundId": "2124-81",
-            "paraId": 2124,
-            "status": "won",
-            "startTime": "2022-08-10T04:27:00.000Z",
-            "endTime": "2023-07-12T04:27:00.000Z",
-            "auctionIndex": 42,
-            "firstPeriod": 23,
-            "lastPeriod": 30
-          }
-        ]
-      }
-    },
-    "clover": {
-      "slug": "clover",
-      "name": "Clover",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/clover.png",
-      "providers": {
-        "Clover": "wss://rpc-para.clover.finance"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "polkadot",
-        "paraId": 2002,
-        "genesisHash": "0x5c7bd13edf349b33eb175ffae85210299e324d852916336027391536e686f267",
-        "addressPrefix": 128,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://lucky.clover.finance/?type=support",
-        "blockExplorer": "https://clover.subscan.io/",
-        "existentialDeposit": "0",
-        "symbol": "CLV",
-        "decimals": 18,
-        "hasNativeNft": false,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "polkadot",
-            "fundId": "2002-5",
-            "paraId": 2002,
-            "status": "won",
-            "startTime": "2021-12-21T01:48:00.000Z",
-            "endTime": "2023-10-24T01:48:00.000Z",
-            "auctionIndex": 5,
-            "firstPeriod": 6,
-            "lastPeriod": 13
-          }
-        ]
-      }
-    },
-    "cloverEvm": {
-      "slug": "cloverEvm",
-      "name": "Clover - EVM",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/cloverevm.png",
-      "providers": {
-        "Clover": "wss://rpc-para.clover.finance",
-        "OnFinality": "wss://clover.api.onfinality.io/public-ws"
-      },
-      "evmInfo": {
-        "evmChainId": 1024,
-        "blockExplorer": null,
-        "existentialDeposit": "0",
-        "symbol": "CLV",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null
-    },
-    "sora_ksm": {
+    {
       "slug": "sora_ksm",
       "name": "SORA Kusama",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 18,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/sora_ksm.png",
       "providers": {
         "Soramitsu": "wss://ws.parachain-collator-1.c1.sora2.soramitsu.co.jp"
@@ -828,11 +625,12 @@
         ]
       }
     },
-    "phala": {
+    {
       "slug": "phala",
       "name": "Phala",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 19,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/phala.png",
       "providers": {
         "Phala": "wss://api.phala.network/ws",
@@ -869,11 +667,12 @@
         ]
       }
     },
-    "karura": {
+    {
       "slug": "karura",
       "name": "Karura",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 20,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/karura.png",
       "providers": {
         "Acala Foundation 0": "wss://karura-rpc-0.aca-api.network",
@@ -903,11 +702,12 @@
         "crowdloanFunds": []
       }
     },
-    "khala": {
+    {
       "slug": "khala",
       "name": "Khala",
       "isTestnet": false,
       "chainStatus": "ACTIVE",
+      "ordinal": 21,
       "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/khala.png",
       "providers": {
         "Phala": "wss://khala-api.phala.network/ws",
@@ -933,126 +733,5 @@
         "crowdloanParaId": null,
         "crowdloanFunds": []
       }
-    },
-    "basilisk": {
-      "slug": "basilisk",
-      "name": "Basilisk",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/basilisk.png",
-      "providers": {
-        "Basilisk ": "wss://rpc.basilisk.cloud",
-        "Dwellir": "wss://basilisk-rpc.dwellir.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2090,
-        "genesisHash": "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755",
-        "addressPrefix": 10041,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://loan.bsx.fi/",
-        "blockExplorer": "https://basilisk.subscan.io/",
-        "existentialDeposit": "1000000000000",
-        "symbol": "BSX",
-        "decimals": 12,
-        "hasNativeNft": false,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": []
-      }
-    },
-    "robonomics": {
-      "slug": "robonomics",
-      "name": "Robonomics",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/robonomics.png",
-      "providers": {
-        "Airalab": "wss://kusama.rpc.robonomics.network/",
-        "Leemo": "wss://robonomics.leemo.me",
-        "OnFinality": "wss://robonomics.api.onfinality.io/public-ws",
-        "Samsara": "wss://robonomics.0xsamsara.com"
-      },
-      "evmInfo": null,
-      "substrateInfo": {
-        "relaySlug": "kusama",
-        "paraId": 2048,
-        "genesisHash": "0x631ccc82a078481584041656af292834e1ae6daab61d2875b4dd0c14bb9b17bc",
-        "addressPrefix": 32,
-        "chainType": "PARACHAIN",
-        "crowdloanUrl": "https://robonomics.network/kusama-slot/",
-        "blockExplorer": "https://robonomics.subscan.io/",
-        "existentialDeposit": "1000",
-        "symbol": "XRT",
-        "decimals": 9,
-        "hasNativeNft": false,
-        "supportStaking": false,
-        "supportSmartContract": null,
-        "crowdloanParaId": null,
-        "crowdloanFunds": [
-          {
-            "relayChain": "kusama",
-            "fundId": "2240-90",
-            "paraId": 2240,
-            "status": "won",
-            "startTime": "2022-12-14T04:27:00.000Z",
-            "endTime": "2023-11-15T04:27:00.000Z",
-            "auctionIndex": 63,
-            "firstPeriod": 26,
-            "lastPeriod": 33
-          }
-        ]
-      }
-    },
-    "boba": {
-      "slug": "boba",
-      "name": "Boba Network",
-      "isTestnet": false,
-      "chainStatus": "ACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/boba.png",
-      "providers": {
-        "Read RPC": "https://lightning-replica.boba.network",
-        "Write RPC": "https://mainnet.boba.network"
-      },
-      "evmInfo": {
-        "evmChainId": 288,
-        "blockExplorer": "https://bobascan.com/",
-        "existentialDeposit": "0",
-        "symbol": "ETH",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null
-    },
-    "bobabeam": {
-      "slug": "bobabeam",
-      "name": "Bobabeam",
-      "isTestnet": false,
-      "chainStatus": "INACTIVE",
-      "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/bobabeam.png",
-      "providers": {
-        "RPC": "https://bobabeam.boba.network",
-        "Replica RPC": "https://replica.bobabeam.boba.network"
-      },
-      "evmInfo": {
-        "evmChainId": 1294,
-        "blockExplorer": "https://blockexplorer.bobabeam.boba.network",
-        "existentialDeposit": "0",
-        "symbol": "BOBA",
-        "decimals": 18,
-        "supportSmartContract": [
-          "ERC20",
-          "ERC721"
-        ],
-        "abiExplorer": null
-      },
-      "substrateInfo": null
     }
-  }
 ]
