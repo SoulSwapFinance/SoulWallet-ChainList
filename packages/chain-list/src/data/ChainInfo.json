@@ -616,47 +616,6 @@
     },
     "substrateInfo": null
   },
-  "moonbase": {
-    "slug": "moonbase",
-    "name": "Moonbase Alpha",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/moonbase.png",
-    "providers": {
-      "Moonbeam Foundation": "wss://wss.api.moonbase.moonbeam.network",
-      "OnFinality": "wss://moonbeam-alpha.api.onfinality.io/public-ws",
-      "Blast": "wss://moonbase-alpha.public.blastapi.io"
-    },
-    "evmInfo": {
-      "evmChainId": 1287,
-      "blockExplorer": "https://moonbase.moonscan.io/",
-      "existentialDeposit": "0",
-      "symbol": "DEV",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC721",
-        "ERC20"
-      ],
-      "abiExplorer": "https://api-moonbase.moonscan.io/api?module=contract&action=getabi"
-    },
-    "substrateInfo": {
-      "relaySlug": null,
-      "paraId": 1000,
-      "genesisHash": "0x91bc6e169807aaa54802737e1c504b2577d4fafedd5a02c10293b1cd60e39527",
-      "addressPrefix": 1287,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": "https://moonbase.subscan.io/",
-      "existentialDeposit": "0",
-      "symbol": "DEV",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportStaking": true,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
-    }
-  },
   "moonriver": {
     "slug": "moonriver",
     "name": "Moonriver",
@@ -749,81 +708,6 @@
           "auctionIndex": 42,
           "firstPeriod": 23,
           "lastPeriod": 30
-        }
-      ]
-    }
-  },
-  "bobabase": {
-    "slug": "bobabase",
-    "name": "Bobabase Testnet",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/bobabase.png",
-    "providers": {
-      "RPC": "https://bobabase.boba.network",
-      "Replica RPC": "https://replica.bobabase.boba.network"
-    },
-    "evmInfo": {
-      "evmChainId": 1297,
-      "blockExplorer": "https://blockexplorer.bobabase.boba.network/",
-      "existentialDeposit": "0",
-      "symbol": "BOBA",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": "https://blockexplorer.bobabase.boba.network/"
-    },
-    "substrateInfo": null
-  },
-  "parallel": {
-    "slug": "parallel",
-    "name": "Parallel",
-    "isTestnet": false,
-    "chainStatus": "ACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/parallel.png",
-    "providers": {
-      "Parallel": "wss://rpc.parallel.fi"
-    },
-    "evmInfo": null,
-    "substrateInfo": {
-      "relaySlug": "polkadot",
-      "paraId": 2012,
-      "genesisHash": "0xe61a41c53f5dcd0beb09df93b34402aada44cb05117b71059cce40a2723a4e97",
-      "addressPrefix": 172,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": "https://crowdloan.parallel.fi/#/auction/contribute/polkadot/2012",
-      "blockExplorer": "https://parallel.subscan.io/",
-      "existentialDeposit": "100000000000",
-      "symbol": "PARA",
-      "decimals": 12,
-      "hasNativeNft": false,
-      "supportStaking": false,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": [
-        {
-          "relayChain": "polkadot",
-          "fundId": "2012-6",
-          "paraId": 2012,
-          "status": "won",
-          "startTime": "2021-12-21T01:48:00.000Z",
-          "endTime": "2023-10-24T01:48:00.000Z",
-          "auctionIndex": 4,
-          "firstPeriod": 6,
-          "lastPeriod": 13
-        },
-        {
-          "relayChain": "polkadot",
-          "fundId": "3350-72",
-          "paraId": 3350,
-          "status": "failed",
-          "startTime": "2023-10-24T01:48:00.000Z",
-          "endTime": "2025-08-26T01:48:00.000Z",
-          "auctionIndex": 0,
-          "firstPeriod": 14,
-          "lastPeriod": 21
         }
       ]
     }
@@ -1119,45 +1003,6 @@
           "lastPeriod": 33
         }
       ]
-    }
-  },
-  "pangolin": {
-    "slug": "pangolin",
-    "name": "Pangolin",
-    "isTestnet": true,
-    "chainStatus": "ACTIVE",
-    "icon": "https://raw.githubusercontent.com/SoulSwapFinance/SoulWallet-Chainlist/master/packages/chain-list-assets/public/assets/chains/pangolin.png",
-    "providers": {
-      "Pangolin_Network": "wss://pangolin-rpc.darwinia.network"
-    },
-    "evmInfo": {
-      "evmChainId": 43,
-      "blockExplorer": null,
-      "existentialDeposit": "0",
-      "symbol": "PRING",
-      "decimals": 18,
-      "supportSmartContract": [
-        "ERC20",
-        "ERC721"
-      ],
-      "abiExplorer": null
-    },
-    "substrateInfo": {
-      "relaySlug": "rococo",
-      "paraId": 2105,
-      "genesisHash": "0xb067215e6232ffeed7cede2f92ac6b65f2121523fa221fc76f2e4430086c6b70",
-      "addressPrefix": 42,
-      "chainType": "PARACHAIN",
-      "crowdloanUrl": null,
-      "blockExplorer": null,
-      "existentialDeposit": "0",
-      "symbol": "PRING",
-      "decimals": 18,
-      "hasNativeNft": false,
-      "supportStaking": false,
-      "supportSmartContract": null,
-      "crowdloanParaId": null,
-      "crowdloanFunds": []
     }
   },
   "boba": {
