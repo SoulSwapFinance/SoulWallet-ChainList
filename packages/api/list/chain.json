@@ -1,4 +1,5 @@
-{
+[
+  {
     "polkadot": {
       "slug": "polkadot",
       "name": "Polkadot",
@@ -1054,3 +1055,4 @@
       "substrateInfo": null
     }
   }
+]
