@@ -23,6 +23,8 @@ export enum COMMON_CHAIN_SLUGS {
   MOONBEAM = 'moonbeam',
   MOONRIVER = 'moonriver',
   ETHEREUM = 'ethereum',
+  FANTOM = 'fantom',
+  AVALANCHE = 'avalanche',
   ACALA = 'acala',
   KARURA = 'karura',
   ALEPH_ZERO = 'aleph',
