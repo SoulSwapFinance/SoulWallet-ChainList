@@ -6507,7 +6507,7 @@
     "symbol": "SOUL",
     "decimals": 18,
     "priceId": "soul-swap",
-    "minAmount": null,
+    "minAmount": "0",
     "assetType": "ERC20",
     "metadata": {
       "contractAddress": "0xe2fb177009FF39F52C0134E8007FA0e4BaAcBd07"
